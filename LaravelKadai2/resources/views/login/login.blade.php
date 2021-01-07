@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-<!-- ログイン情報入力フォーム -->
+<!-- ログイン情報入力フォーム  -->
 <form method="POST" action="#">
   @csrf
   <p>Email:<input type="text" name="email"></p><br>

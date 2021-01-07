@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja"> 
-<!-- 親レイアウト -->
+<!-- 親レイアウト  -->
 <html>
 
 <head>

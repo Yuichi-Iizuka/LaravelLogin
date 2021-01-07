@@ -14,6 +14,7 @@ class RegisterController extends Controller
     {
         return view('register.register');
     }
+    // postメソッド追加
     public function post(RegisterRequest $request)
     {
         $post_data = PostRequest::all();
