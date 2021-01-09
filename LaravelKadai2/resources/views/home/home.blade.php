@@ -7,6 +7,6 @@
 @section('content')
 <!-- ログイン後のホーム -->
 
-<h1>{{$post_data['username']}}さま</h1>
+<h1>{{$name}}さま</h1>
 <h1>ログインしました！ </h1>
 @endsection('content')

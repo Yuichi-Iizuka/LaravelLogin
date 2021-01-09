@@ -17,7 +17,9 @@ class RegisterController extends Controller
     // postメソッド追加
     public function post(RegisterRequest $request)
     {
-        $post_data = PostRequest::all();
-        return view('home.home',compact('post_data'));
+        // $post_data = PostRequest::all()を以下に変更
+        $name = $request->username;
+    
+        return view('home.home',compact('name'));
     }
 }
