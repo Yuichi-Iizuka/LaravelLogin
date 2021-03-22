@@ -7,7 +7,7 @@
 
 @section('content')
 <!-- ユーザーの登録情報を入力するフォーム -->
-
+<!-- エラーメッセージを追加 -->
 <form method="POST" action="/register">
   <table>
     @if(count($errors) > 0)
